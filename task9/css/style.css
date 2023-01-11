@@ -1,0 +1,254 @@
+body {
+    height:auto;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+.upper .logo img {
+    max-width: 140px;
+  
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.col-xl-3 {
+    padding-left: 0;
+}
+
+.upper li {
+    list-style: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+    border: none;
+    transition: all 0.5s;
+    color: black;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent transparent #3e78b3;
+}
+  
+  
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  .sora {
+      position: relative;
+      overflow: hidden;
+  }
+
+  .over-layy{
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all 1s;
+      opacity: 0;
+  }
+
+  .sora:hover .over-layy {
+      opacity: 1;
+
+  }
+
+  .sora img {
+      transition: all 1s;
+  }
+
+  .sora:hover img {
+      transform: scale(1.1);
+  }
+
+  .word{
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      margin-top: 25%;
+      font-size: 30px;
+      font-weight: 500;
+  }
+
+  footer {
+      background-color: #f8f8f8;
+      height: 150px;
+    
+  }
+
+
+
+  .fab {
+    font-size: 20px;
+    color: white;
+    margin-right: 7px;
+    background-color:black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyy {
+    text-align: left;
+}
+.ico {
+    text-align: right;
+}
+
+.borderr {
+    width: 300px;
+}
+
+.fa-facebook:hover {
+  
+    background-color: #0275d8;
+
+}
+
+.fa-twitter:hover {
+    background-color: red;
+
+}
+
+.fa-linkedin-in:hover {
+    background-color: #0275d8;
+}
+
+
+  .right-text {
+      color: #888;
+  }
+
+  .my-input {
+      padding: 10px;
+  }
+
+  .subject-form {
+      margin-top: 20px;
+
+  }
+
+  .send-button {
+      padding: 10px;
+      color: white;
+      background-color: black;
+      border: none;
+      width: 80px;
+      border-radius: 8px;
+  }
+
+
+  @media (max-width:1024px )  {
+
+    .sidenav {
+        position: inherit;
+        text-align: center;
+        width: 700px;
+    }
+
+  }
+
+  @media (max-width:812px) {
+
+    .sidenav {
+        position: inherit;
+        text-align: center;
+        width: 350px;
+    }
+
+  }
+
+  @media (max-width:736px) {
+
+    .sidenav {
+        position: inherit;
+        text-align: center;
+        width: 400px;
+    }
+  }
+
+
+
+@media (max-width:667px) {
+
+  .sidenav {
+      position: inherit;
+      text-align: center;
+      width: 370px;
+  }
+}
+ 
+  @media (max-width:568px) {
+    
+    .sidenav {
+        position: inherit;
+        text-align: center;
+        width: 302px;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .borderr {
+        width: 372px;
+    }
+
+    .copyy , .ico {
+        text-align: center;
+    }
+    
+    .my-input {
+        width: 383px;
+        margin-top: 20px;
+    }
+
+    .send-button {
+        margin-bottom: 20px;
+    }
+
+  }
